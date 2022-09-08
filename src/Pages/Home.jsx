@@ -1,6 +1,10 @@
 export const Home = () => {
 
     return (
-        <div>Home Page</div>
+        <div>
+        <h1>
+            welcome to Masai School
+        </h1>
+        </div>
     )
 }
