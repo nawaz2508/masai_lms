@@ -1,6 +1,9 @@
+import {Navbar} from "../components/Navbar";
 export const Lectures = () => {
 
     return (
-        <div>Lectures Page</div>
+        <div>
+            <Navbar/>
+            </div>
     )
 }

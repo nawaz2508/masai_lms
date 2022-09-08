@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
+import { useAuth } from "./Context/Auth";
 
 const pages = ["Lectures", "Assignments", "Admin"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -20,7 +21,7 @@ const settings = ["Profile", "Account", "Dashboard", "Logout"];
 export const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
+  
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };

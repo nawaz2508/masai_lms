@@ -1,6 +1,8 @@
+import { Navbar } from "../components/Navbar"
+
 export const Assignment = () => {
 
     return (
-        <div>Assignment Page</div>
+        <div><Navbar/></div>
     )
 }
